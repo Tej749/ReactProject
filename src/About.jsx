@@ -1,5 +1,7 @@
+import Button from "./Button";
+
 function About() {
-  return <h1> Home Page</h1>;
+  return <Button huhu="about" haha={1} />;
 }
 
 export default About;
